@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(27, 7, 7, 0.7);
+}
+
+#contenedor_cards{
+    margin: 0 auto;
+    width: 80vw;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.card{
+    width: 200px;
+    text-align: center;
+    height: 200px;
+
+    margin: 10px;
+
+    background-color: rgba(137, 234, 27, 0.7);
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: bold;
+}
